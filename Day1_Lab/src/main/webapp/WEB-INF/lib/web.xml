@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>Day_1 Lab</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+
+</welcome-file-list>
+<servlet>
+<servlet-name>abc</servlet-name>
+<servelet-class>pages.Servelet2</servelet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>abc</servlet-name>
+<url-pattern>/test2</url-pattern>
+</servlet-mapping>
+</web-app>
